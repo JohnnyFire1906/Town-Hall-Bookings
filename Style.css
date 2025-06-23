@@ -1,0 +1,75 @@
+<style>
+.logo img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+  body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: black url('flaxbourne-logo.png') no-repeat center center fixed;
+  background-size: 300px; /* Adjust size to fit your preference */
+  color: black; /* If you're keeping the dark theme */
+}
+
+  header {
+    background-color: #000000;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+  nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .hero {
+  background: #8B1A1A; /* shed red — deep earthy red */
+  text-align: center;
+  padding: 40px 20px;
+  color: white; /* ensures the text stays readable */
+}
+
+  .content {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  section {
+    margin-bottom: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+  }
+
+  footer {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 40px;
+    color: #777;
+  }
